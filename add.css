@@ -1,0 +1,72 @@
+/* Mise en forme globale de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style du titre principal */
+h1 {
+    color: #2c3e50;
+    margin-top: 50px;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style du paragraphe d'introduction */
+p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+/* Style des liens de langue */
+a {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 15px 25px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+/* Changement de couleur des liens au survol */
+a:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Effet au clic sur un lien (pour indiquer l'interaction) */
+a:active {
+    background-color: #1abc9c;
+    transform: scale(1.05);
+}
+
+/* Mise en forme des liens pour les rendre plus visibles */
+a:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(52, 152, 219, 0.8);
+}
+
+/* Animation de la page de chargement */
+body {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Animation pour le fade-in au chargement de la page */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
